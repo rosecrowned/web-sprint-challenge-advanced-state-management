@@ -1,8 +1,15 @@
+import { START_FETCH, SUCCESSFUL_API, FAILED_API,ADD_SMURF, ERROR_MESSAGE}
+
 
 export const initialState = {
+    smurfsList: [],
+    isloading: false;
+    errorMessage: '';
+
 }
 
-const reducer = ()=>{
+const reducer = (state, action)=>{
+
 }
 
 //**************DO NOT EDIT ANY CODE BEYOND THIS POINT**************//
